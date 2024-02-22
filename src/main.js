@@ -49,10 +49,12 @@ console.log("Reponses correctes ", reponses_correctes, "/", nombre_questions+1);
 const html_quizBox = document.getElementById('quizBox');
 const html_question = document.getElementById('question');
 const html_reponses = document.getElementById('reponses');
+const html_questionNumber = document.getElementById('questionNumber');
 
 
 // Code
 if (question_number != -1) {
+    html_questionNumber.innerText = "Question " + parseInt(question_number+1) + "/" + parseInt(nombre_questions+1);
     html_question.innerText = questions[question_number].question;
     reponses = "";
     next_reponses_correctes = reponses_correctes;
