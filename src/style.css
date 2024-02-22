@@ -1,3 +1,29 @@
+@font-face {
+    font-family: DMSerifDisplay;
+    src: url(./fonts/DMSerifDisplay-Regular.ttf);
+}
+
+
+body {
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.questions {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 .question {
-    font-size: 10rem;
+    font-family: DMSerifDisplay, serif;
+    font-size: 10vb;
+}
+
+.questions li {
+    font-family: "Comic Sans MS";
+    font-size: 3vb;
+    list-style: none;
 }
