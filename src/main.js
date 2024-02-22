@@ -5,7 +5,7 @@ var questions = [
     {
         "question" : "Qui a mangé le chat ?",
         "type" : 0,
-        "reponses" : ["moi","lui","eux","la réponse 4"],
+        "reponses" : ["Moi","Lui","Eux","La réponse 4"],
         "correct" : 0
     },
     {
