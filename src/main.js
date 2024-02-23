@@ -56,6 +56,8 @@ const html_finBox = document.getElementById('finBox');
 // Code
 window.onload = function () {
     html_quizBox.style = "opacity: 1; transition: 0.3s ease-in-out;";
+    html_finBox.style.opacity = 1;
+    html_finBox.style.transform = 'scale(100%)';
 }
 
 function delay (URL) {
@@ -99,7 +101,7 @@ if (question_number != -1) {
 else {
     html_fin = `<h1 class='score'> Bravo vous avez ` + reponses_correctes + "/" + parseInt(nombre_questions+1) + ` (` + Math.round(parseFloat((reponses_correctes/(nombre_questions+1))*100)) + ` %) !</h1>`;
     for (i in questions) {
-        html_fin += `<h1 class='question_fin'>` + questions[i].question + `</h1>`;
+        html_fin += `<h1 class='question_fin'> Question ` + parseInt(parseInt(i)+1) + ": " + questions[i].question + `</h1>`;
         for (k in questions[i].reponses) {
             if (k == questions[i].correct) {
                 if (questions[i].correct == reponse_prec[parseInt(i)]) {

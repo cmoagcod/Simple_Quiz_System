@@ -155,6 +155,9 @@ body {
     padding-top: 1.5vh;
     padding-bottom: 2vh;
     font-family: Archivo, sans-serif;
+    opacity: 0;
+    transform: scale(30%) translateX(500px) translateY(700px);
+    transition: 1.5s;
 }
 .fin button {
     font-family: Micro5;
