@@ -11,16 +11,7 @@
     src: url(./fonts/Archivo-Bold.ttf);
 }
 
-
-@media screen and (max-height: 500px) {
-    :root {
-        --question_size: 50px;
-        --reponse_size: 30px;
-        --question_number_size: 25px;
-    }
-}
-
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1400px) and (min-height: 700px) {
     :root {
         --question_size: 100px;
         --reponse_size: 75px;
@@ -28,35 +19,35 @@
     }
 }
 
-@media screen and (min-width: 900px) and (max-width: 1400px) {
+@media screen and (max-width: 1400px) and (min-width: 900px) and (min-height: 700px) {
     :root {
-        --question_size: 75px;
-        --reponse_size: 50px;
-        --question_number_size: 32px;
+        --question_size: 80px;
+        --reponse_size: 70px;
+        --question_number_size: 50px;
     }
-} 
+}
 
-@media screen and (min-width: 600px) and (max-width: 900px) {
+@media screen and (min-width: 900px) and (min-height: 300px) and (max-height: 700px) {
+    :root {
+        --question_size: 35px;
+        --reponse_size: 25px;
+        --question_number_size: 15px;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 500px) and (min-height: 550px) {
     :root {
         --question_size: 50px;
-        --reponse_size: 30px;
+        --reponse_size: 40px;
         --question_number_size: 25px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 300px) and (max-width: 500px) and (min-height: 550px) {
     :root {
-        --question_size: 30px;
-        --reponse_size: 20px;
-        --question_number_size: 25px;
-    }
-}
-
-@media screen and (max-width: 600px) and (max-height: 500px) {
-    :root {
-        --question_size: 30px;
-        --reponse_size: 20px;
-        --question_number_size: 25px;
+        --question_size: 35px;
+        --reponse_size: 25px;
+        --question_number_size: 15px;
     }
 }
 
