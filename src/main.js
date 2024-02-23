@@ -50,9 +50,25 @@ const html_quizBox = document.getElementById('quizBox');
 const html_question = document.getElementById('question');
 const html_reponses = document.getElementById('reponses');
 const html_questionNumber = document.getElementById('questionNumber');
+const html_finBox = document.getElementById('finBox');
 
 
 // Code
+window.onload = function () {
+    html_quizBox.style = "opacity: 1; transition: 0.3s ease-in-out;";
+}
+
+function delay (URL) {
+    setTimeout( function() { window.location = URL }, 550 );
+}
+
+function clickedSelf (item) {
+    console.log(item);
+    item.style = "transform: scale(10%); color: white;";
+    html_quizBox.style = "opacity: 0; transition: 0.5s ease-in-out;";
+}
+
+
 if (question_number != -1) {
     html_questionNumber.innerText = "Question " + parseInt(question_number+1) + "/" + parseInt(nombre_questions+1);
     html_question.innerText = questions[question_number].question;
@@ -74,11 +90,21 @@ if (question_number != -1) {
         }
 
         reponse_href = "?qn=" + next_question_number + "&rp=[" + reponse_prec + "," + i + "]&rc=" + next_reponses_correctes;
-        reponses = reponses + "<a href='" + reponse_href + "'>" + "<li id='reponse" + i +"'>" + questions[question_number].reponses[i] + "</li></a>";
+        reponses = reponses + "<a onclick='clickedSelf(this)' href='javascript:delay(\"" + reponse_href + "\")'>" + "<li id='reponse" + i +"'>" + questions[question_number].reponses[i] + "</li></a>";
     }
 
     html_reponses.innerHTML = reponses;
 }
 else {
-    html_quizBox.innerHTML = "FIN";
+    html_fin = `<h1 class='titre'> Bravo vous avez ` + reponses_correctes + "/" + parseInt(nombre_questions+1) + ` (` + Math.round(parseFloat((reponses_correctes/(nombre_questions+1))*100)) + ` %) !</h1>`;
+    for (i in questions) {
+        html_fin += `<h1 class=''>` + questions[i].question + `</h1>`;
+        for (k in questions[i].reponses) {
+            if (k == questions[i].correct) {
+                html_fin += `<p>` + questions[i].reponses[k] + `</p>`;
+            }
+        }
+    }
+    html_quizBox.innerHTML = "";
+    html_finBox.innerHTML = html_fin;
 }

@@ -53,28 +53,32 @@
 
 @keyframes background-button {
     from {
-        background-color: #50C4ED;
+        background-color: #4389da;
     }
     50% {
         background-color: #387ADF;
     }
     to {
-        background-color: #333A73;
+        background-color: #343e88;
     }
 }
 
 @keyframes background-body {
     from {
-        background-color: rgb(20, 20, 20);
+        background-color: rgb(1, 12, 22);
     }
     to {
-        background-color: #000000;
+        background-color: rgb(2, 2, 63);
     }
 }
 
 body {
-    animation: 10s alternate infinite background-body;
+    background-color: #010725;
     color: white;
+}
+
+#quizBox {
+    opacity: 0;
 }
 
 .questions {
