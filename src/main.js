@@ -74,7 +74,7 @@ if (question_number != -1) {
         }
 
         reponse_href = "?qn=" + next_question_number + "&rp=[" + reponse_prec + "," + i + "]&rc=" + next_reponses_correctes;
-        reponses = reponses + "<li id='reponse" + i +"'>" + "<a href='" + reponse_href + "'>" + questions[question_number].reponses[i] + "</a></li>";
+        reponses = reponses + "<a href='" + reponse_href + "'>" + "<li id='reponse" + i +"'>" + questions[question_number].reponses[i] + "</li></a>";
     }
 
     html_reponses.innerHTML = reponses;
