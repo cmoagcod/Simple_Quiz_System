@@ -21,7 +21,7 @@
     }
 }
 
-@media screen and (min-width: 900px) and (max-width: 1400px) and (min-width: 900px) and (min-height: 700px) {
+@media screen and (min-width: 1000px) and (max-width: 1400px) and (min-height: 900px) {
     :root {
         --question_size: 70px;
         --reponse_size: 55px;
@@ -31,7 +31,7 @@
     }
 }
 
-@media screen and (min-width: 900px) and (min-height: 300px) and (max-height: 700px) {
+@media screen and (min-width: 1000px) and (min-height: 300px) and (max-height: 900px) {
     :root {
         --question_size: 35px;
         --reponse_size: 25px;
@@ -41,7 +41,7 @@
     }
 }
 
-@media screen and (max-width: 900px) and (min-width: 500px) and (min-height: 550px) {
+@media screen and (max-width: 1000px) and (min-width: 500px) and (min-height: 630px) {
     :root {
         --question_size: 50px;
         --reponse_size: 35px;
@@ -51,7 +51,7 @@
     }
 }
 
-@media screen and (min-width: 300px) and (max-width: 500px) and (min-height: 550px) {
+@media screen and (min-width: 300px) and (max-width: 500px) and (min-height: 630px) {
     :root {
         --question_size: 35px;
         --reponse_size: 25px;
@@ -185,4 +185,11 @@ body {
 }
 .reponse_fin {
     padding-left: 1vw;
+}
+
+.green {
+    color: #43da50;
+}
+.red {
+    color: #e7033c;
 }

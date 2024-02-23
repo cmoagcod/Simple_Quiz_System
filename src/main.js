@@ -88,6 +88,7 @@ if (question_number != -1) {
         }else{
             next_reponses_correctes = reponses_correctes;
         }
+        reponse_prec[question_number] = i;
 
         reponse_href = "?qn=" + next_question_number + "&rp=[" + reponse_prec + "," + i + "]&rc=" + next_reponses_correctes;
         reponses = reponses + "<a onclick='clickedSelf(this)' href='javascript:delay(\"" + reponse_href + "\")'>" + "<li id='reponse" + i +"'>" + questions[question_number].reponses[i] + "</li></a>";
@@ -101,7 +102,12 @@ else {
         html_fin += `<h1 class='question_fin'>` + questions[i].question + `</h1>`;
         for (k in questions[i].reponses) {
             if (k == questions[i].correct) {
-                html_fin += `<p class='reponse_fin'>` + questions[i].reponses[k] + `</p>`;
+                if (questions[i].correct == reponse_prec[parseInt(k)]) {
+                    class_color = "green"
+                }else {
+                    class_color = "red"
+                }
+                html_fin += `<p class='reponse_fin ` + class_color + `'>` + questions[i].reponses[k] + `</p>`;
             }
         }
     }
