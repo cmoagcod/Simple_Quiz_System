@@ -96,15 +96,16 @@ if (question_number != -1) {
     html_reponses.innerHTML = reponses;
 }
 else {
-    html_fin = `<h1 class='titre'> Bravo vous avez ` + reponses_correctes + "/" + parseInt(nombre_questions+1) + ` (` + Math.round(parseFloat((reponses_correctes/(nombre_questions+1))*100)) + ` %) !</h1>`;
+    html_fin = `<h1 class='score'> Bravo vous avez ` + reponses_correctes + "/" + parseInt(nombre_questions+1) + ` (` + Math.round(parseFloat((reponses_correctes/(nombre_questions+1))*100)) + ` %) !</h1>`;
     for (i in questions) {
-        html_fin += `<h1 class=''>` + questions[i].question + `</h1>`;
+        html_fin += `<h1 class='question_fin'>` + questions[i].question + `</h1>`;
         for (k in questions[i].reponses) {
             if (k == questions[i].correct) {
-                html_fin += `<p>` + questions[i].reponses[k] + `</p>`;
+                html_fin += `<p class='reponse_fin'>` + questions[i].reponses[k] + `</p>`;
             }
         }
     }
+    html_fin += `<a href="./quiz.html"><button>Recommencer</button></a>`;
     html_quizBox.innerHTML = "";
     html_finBox.innerHTML = html_fin;
 }

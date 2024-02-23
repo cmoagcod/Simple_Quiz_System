@@ -16,6 +16,8 @@
         --question_size: 100px;
         --reponse_size: 75px;
         --question_number_size: 50px;
+
+        --score-size: 100px;
     }
 }
 
@@ -24,6 +26,8 @@
         --question_size: 80px;
         --reponse_size: 70px;
         --question_number_size: 50px;
+
+        --score-size: 100px;
     }
 }
 
@@ -32,6 +36,8 @@
         --question_size: 35px;
         --reponse_size: 25px;
         --question_number_size: 15px;
+
+        --score-size: 50px;
     }
 }
 
@@ -40,6 +46,8 @@
         --question_size: 50px;
         --reponse_size: 40px;
         --question_number_size: 25px;
+
+        --score-size: 75px;
     }
 }
 
@@ -48,8 +56,17 @@
         --question_size: 35px;
         --reponse_size: 25px;
         --question_number_size: 15px;
+
+        --score-size: 50px;
     }
 }
+
+@media screen and (max-height: 550px) {
+    :root {
+        --score-size: 50px;
+    }
+}
+
 
 @keyframes background-button {
     from {
@@ -72,6 +89,7 @@
     }
 }
 
+
 body {
     background-color: #010725;
     color: white;
@@ -90,19 +108,16 @@ body {
     padding: 0;
     margin: 0;
 }
-
 .question {
     font-family: Honk, serif;
     font-size: var(--question_size);
     margin: 0;
     padding: 0;
 }
-
 .questions ul {
     padding: 0;
     margin: 0;
 }
-
 .questions li {
     font-family: Archivo, sans-serif;
     font-size: var(--reponse_size);
@@ -118,20 +133,56 @@ body {
     border-radius: 10px;
     transition: ease-in-out 0.5s;
 }
-
 .questions li:hover {
     color: #000000;
     transform: scale(112%);
     transition: ease-in-out 0.25s;
 }
-
 .questions a {
     text-decoration: none;
     color: #ffffff;
 }
-
 .questionNumber {
     font-family: Micro5, sans-serif;
     font-size: var(--question_number_size);
     margin: 0;
+}
+
+
+.fin {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1.5vh;
+    padding-bottom: 2vh;
+    font-family: Archivo, sans-serif;
+}
+.fin button {
+    font-family: Micro5;
+    font-size: 50px;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border: none;
+    border-radius: 10px;
+    background-color: #e76c08;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin-top: 3%;
+}
+.fin button:hover {
+    transform: scale(110%);
+    color: #000000;
+    background-color: #e7033c;
+    transition: 0.2s ease-in-out;
+}
+.score {
+    font-family: Honk;
+    font-size: var(--score-size);
+    text-align: center;
+}
+.reponse_fin {
+    padding-left: 1vw;
 }
