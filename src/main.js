@@ -102,7 +102,7 @@ else {
         html_fin += `<h1 class='question_fin'>` + questions[i].question + `</h1>`;
         for (k in questions[i].reponses) {
             if (k == questions[i].correct) {
-                if (questions[i].correct == reponse_prec[parseInt(k)]) {
+                if (questions[i].correct == reponse_prec[parseInt(i)]) {
                     class_color = "green"
                 }else {
                     class_color = "red"
@@ -110,6 +110,7 @@ else {
                 html_fin += `<p class='reponse_fin ` + class_color + `'>` + questions[i].reponses[k] + `</p>`;
             }
         }
+        html_fin += `<p class='reponse_fin'>Votre réponse : ` + questions[i].reponses[parseInt(reponse_prec[parseInt(i)])] + `</p>`;
     }
     html_fin += `<a href="./quiz.html"><button>Recommencer</button></a>`;
     html_quizBox.innerHTML = "";
