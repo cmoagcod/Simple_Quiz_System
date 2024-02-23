@@ -3,21 +3,21 @@
 // A compléter
 var questions = [
     {
-        "question" : "Qui a mangé le chat ?",
+        "question" : "Répondez Oui.",
         "type" : 0,
-        "reponses" : ["Moi","Lui","Eux","La réponse 4"],
+        "reponses" : ["Oui","Non"],
         "correct" : 0
     },
     {
-        "question" : "Question Test 2 ?",
+        "question" : "Quel était le prenom du scientifique Descartes ?",
         "type" : 1,
-        "reponses" : ["a10","a20","a30"],
-        "correct" : 2
+        "reponses" : ["René Descartes","Paul Descartes","Jaba Descartes","Retourn Descartes","Louis Descartes"],
+        "correct" : 0
     },
     {
-        "question" : "Question Test 3 ?",
+        "question" : "Zéro Kelvin correspondent à :",
         "type" : 1,
-        "reponses" : ["oui","non","Lorem ipsum indolor sit amet"],
+        "reponses" : ["0°C","-27.15°C","-273.15°C"],
         "correct" : 2
     }
 ];

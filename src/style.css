@@ -13,19 +13,19 @@
 
 @media screen and (min-width: 1400px) and (min-height: 700px) {
     :root {
-        --question_size: 100px;
-        --reponse_size: 75px;
-        --question_number_size: 50px;
+        --question_size: 75px;
+        --reponse_size: 65px;
+        --question_number_size: 40px;
 
         --score-size: 100px;
     }
 }
 
-@media screen and (max-width: 1400px) and (min-width: 900px) and (min-height: 700px) {
+@media screen and (min-width: 900px) and (max-width: 1400px) and (min-width: 900px) and (min-height: 700px) {
     :root {
-        --question_size: 80px;
-        --reponse_size: 70px;
-        --question_number_size: 50px;
+        --question_size: 70px;
+        --reponse_size: 55px;
+        --question_number_size: 30px;
 
         --score-size: 100px;
     }
@@ -44,8 +44,8 @@
 @media screen and (max-width: 900px) and (min-width: 500px) and (min-height: 550px) {
     :root {
         --question_size: 50px;
-        --reponse_size: 40px;
-        --question_number_size: 25px;
+        --reponse_size: 35px;
+        --question_number_size: 20px;
 
         --score-size: 75px;
     }
