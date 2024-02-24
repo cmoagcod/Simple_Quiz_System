@@ -120,7 +120,7 @@ else {
         }
         html_fin += `<p class='reponse_fin'>Votre réponse : ` + questions[i].reponses[parseInt(reponse_prec[parseInt(i)])] + `</p>`;
     }
-    html_fin += `<a href="#"><button>Recommencer</button></a>`;
+    html_fin += `<a href="?qn=0"><button>Recommencer</button></a>`;
     html_quizBox.innerHTML = "";
     html_finBox.innerHTML = html_fin;
 }
