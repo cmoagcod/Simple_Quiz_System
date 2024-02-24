@@ -19,6 +19,12 @@ var questions = [
         "type" : 1,
         "reponses" : ["0°C","-27.15°C","-273.15°C"],
         "correct" : 2
+    },
+    {
+        "question" : "Cette question est la ",
+        "type" : 1,
+        "reponses" : ["troisième","quatrième","neuvième"],
+        "correct" : 1
     }
 ];
 

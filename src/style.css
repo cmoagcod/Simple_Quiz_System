@@ -160,8 +160,8 @@ body {
     transition: 1.5s;
 }
 .fin button {
-    font-family: Micro5;
-    font-size: 50px;
+    font-family: Archivo;
+    font-size: 35px;
     padding-right: 3vw;
     padding-left: 3vw;
     padding-top: 1vh;
@@ -188,7 +188,12 @@ body {
 }
 .reponse_fin {
     padding-left: 1vw;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: Micro5;
+}
+.question_fin {
+    font-size: 40px;
+    font-family: Micro5;
 }
 
 .green {
