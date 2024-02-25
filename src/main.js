@@ -3,100 +3,65 @@
 // A compléter
 var questions = [
     {
-        "question" : "Un ordinateur moderne avec un processeur Intel fonctionne généralement en ",
-        "reponses" : ["16 bit","32 bit","64 bit"],
+        "question" : "Dorian est ",
+        "reponses" : ["Beau","Très Beau","Célèbre"],
         "correct" : 2
     },
     {
-        "question" : "Parmi ces 3 langages de programmation lequel est considéré comme étant de plus bas niveau",
-        "reponses" : ["Python","C","JavaScript"],
+        "question" : "Dorian aime ",
+        "reponses" : ["Bastien","Bastien","Dora"],
+        "correct" : 2
+    },
+    {
+        "question" : "Dorian est ",
+        "reponses" : ["Communiste","Riche","Bizarre et Communiste"],
+        "correct" : 0
+    },
+    {
+        "question" : "Dorian a ",
+        "reponses" : ["Un PC","Un grille-pain qui fait office de PC","Un PC qui fait office de grille-pain"],
+        "correct" : 2
+    },
+    {
+        "question" : "Dorian drift",
+        "reponses" : ["Mal","Bien","oui."],
+        "correct" : 2
+    },
+    {
+        "question" : "Dorian est ",
+        "reponses" : ["Grand","Très Grand","Très Gros"],
         "correct" : 1
     },
     {
-        "question" : "HTML est un acronyme pour :",
-        "reponses" : ["HyperText Markup Langage","HyperText Motor of Linearity","HopText Marking Langage"],
-        "correct" : 0
-    },
-    {
-        "question" : "Le CSS sert ",
-        "reponses" : ["à styliser un site","à créer un site web dit dynamique"],
-        "correct" : 0
-    },
-    {
-        "question" : "Un processeur utilise ",
-        "reponses" : ["des portes logiques","des opérations simples basées exclusivement sur les additions et soustractions"],
-        "correct" : 0
-    },
-    {
-        "question" : "En 2003, lors d'éléctions belges par vote numérique un candidat à reçu 4096 votes supplémentaire, on suspecte la cause d'être: ",
-        "reponses" : ["une erreur de manipulation","un rayonnement cosmique"],
-        "correct" : 1
-    },
-    {
-        "question" : "L'architecture de processeur la plus répandue aujourd'hui dans les ordinateurs personnels (mac exclus) est:",
-        "reponses" : ["x86","ARM"],
-        "correct" : 0
-    },
-    {
-        "question" : "IOT signifie",
-        "reponses" : ["International Organisation of Transfer","Intelligence Of Technology", "Internet Of Things", "IOT n'est pas un acronyme et est le nom d'une technologie singulière"],
-        "correct" : 2
-    },
-    {
-        "question" : "Le python est un langage",
-        "reponses" : ["interprété","compilé"],
-        "correct" : 0
-    },
-    {
-        "question" : "L'intelligence artificielle est ",
-        "reponses" : ["majoritairement basée sur des mathématiques","majoritairement basée sur de la physique"],
-        "correct" : 0
-    },
-    {
-        "question" : "La société qui gère Windows est ",
-        "reponses" : ["Google","Alphabet","Microsoft","Apple","IBM"],
-        "correct" : 2
-    },
-    {
-        "question" : "Android est basé sur ",
-        "reponses" : ["BSD","Windows IOT","Unix","Linux","iOS"],
+        "question" : "Dorian dirige ",
+        "reponses" : ["Dorian","La Russie","Le Monde","Une 206"],
         "correct" : 3
     },
     {
-        "question" : "Il n'existe aucun virus informatique sur un système basé sur Linux.",
-        "reponses" : ["Vrai","Faux"],
-        "correct" : 1
-    },
-    {
-        "question" : "Quelle porte logique n'existe pas ?",
-        "reponses" : ["OR","AND","XOR","NAND","NOR","ORX"],
-        "correct" : 5
-    },
-    {
-        "question" : "En programmation lorsque l'on utilise des fonctions préfaites que l'on ne définit pas (ex: sinus, graphique...)",
-        "reponses" : ["On utilise des livres","On utilise des librairies","On utilise des systèmes"],
-        "correct" : 1
-    },
-    {
-        "question" : "Dorian est",
-        "reponses" : ["Beau","Très beau","Nous"],
+        "question" : "Dorian a le permis car ",
+        "reponses" : ["Il l'a payé ?","Il l'a payé !","Il l'a mordu ?!"],
         "correct" : 2
     },
     {
-        "question" : "Quel nom ne correspond pas au nom d'un navigateur web ?",
-        "reponses" : ["NetScape","Google","Firefox","Edge"],
+        "question" : "Champé",
+        "reponses" : ["mon","mont","moune"],
         "correct" : 1
     },
     {
-        "question" : "Microsoft a été crée par ",
-        "reponses" : ["Bill Cipher","Bill Porte","Bill Gates","Bowling Portail", "Paul Allen & Bill Gates"],
-        "correct" : 4
+        "question" : "Le communisme c'est ",
+        "reponses" : ["Bien","Dodo le dino","Dino le Dodo","Communiste"],
+        "correct" : 3
     },
     {
-        "question" : "Le moteur de recherche crée par Microsoft est ",
-        "reponses" : ["Bing","Qwant","Yahoo"],
-        "correct" : 0
-    }
+        "question" : "Dorian mute ",
+        "reponses" : ["Seb","Pas Seb","Tout le monde","Lui-même"],
+        "correct" : 3
+    },
+    {
+        "question" : "Dorian grandit ",
+        "reponses" : ["Vite","Lentement","Pas"],
+        "correct" : 2
+    },
 ];
 
 // Definiton variables
