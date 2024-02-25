@@ -84,7 +84,7 @@ var questions = [
     },
     {
         "question" : "Quel nom ne correspond pas au nom d'un navigateur web ?",
-        "reponses" : ["NetScape","Google","Firefox","League of Legends"],
+        "reponses" : ["NetScape","Google","Firefox","Edge"],
         "correct" : 1
     },
     {
