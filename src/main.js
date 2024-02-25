@@ -34,7 +34,7 @@ var questions = [
     },
     {
         "question" : "Dorian dirige ",
-        "reponses" : ["Dorian","La Russie","Le Monde","Une 206"],
+        "reponses" : ["Dorian","La Russie","Le Monde","Une 207"],
         "correct" : 3
     },
     {
