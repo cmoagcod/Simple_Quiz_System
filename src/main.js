@@ -9,7 +9,7 @@ var questions = [
     },
     {
         "question" : "Dorian aime ",
-        "reponses" : ["Bastien","Bastien","Dora"],
+        "reponses" : ["La vie","Le monde","Dorian"],
         "correct" : 2
     },
     {
@@ -61,6 +61,11 @@ var questions = [
         "question" : "Dorian grandit ",
         "reponses" : ["Vite","Lentement","Pas"],
         "correct" : 2
+    },
+    {
+        "question" : "Sa daronne ",
+        "reponses" : ["La gestapo","Le Blitzkrieg","vit."],
+        "correct" : 0
     },
 ];
 
