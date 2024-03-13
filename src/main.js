@@ -3,70 +3,85 @@
 // A compléter
 var questions = [
     {
-        "question" : "Dorian est ",
-        "reponses" : ["Beau","Très Beau","Célèbre"],
-        "correct" : 2
-    },
-    {
-        "question" : "Dorian aime ",
-        "reponses" : ["La vie","Le monde","Dorian"],
-        "correct" : 2
-    },
-    {
-        "question" : "Dorian est ",
-        "reponses" : ["Communiste","Riche","Bizarre et Communiste"],
+        "question" : "QUEL EST LE TITRE EXACT DE CETTE MUSIQUE EXTRAITE DE LA SAGA STAR WARS ?",
+        "reponses" : ["La Marche Impériale","Le thème de Star Wars","Le thème de Yoda"],
         "correct" : 0
     },
     {
-        "question" : "Dorian a ",
-        "reponses" : ["Un PC","Un grille-pain qui fait office de PC","Un PC qui fait office de grille-pain"],
-        "correct" : 2
-    },
-    {
-        "question" : "Dorian drift",
-        "reponses" : ["Mal","Bien","oui."],
-        "correct" : 2
-    },
-    {
-        "question" : "Dorian est ",
-        "reponses" : ["Grand","Très Grand","Très Gros"],
-        "correct" : 1
-    },
-    {
-        "question" : "Dorian dirige ",
-        "reponses" : ["Dorian","La Russie","Le Monde","Une 207"],
-        "correct" : 3
-    },
-    {
-        "question" : "Dorian a le permis car ",
-        "reponses" : ["Il l'a payé ?","Il l'a payé !","Il l'a mordu ?!"],
-        "correct" : 2
-    },
-    {
-        "question" : "Champé",
-        "reponses" : ["mon","mont","moune"],
-        "correct" : 1
-    },
-    {
-        "question" : "Le communisme c'est ",
-        "reponses" : ["Bien","Dodo le dino","Dino le Dodo","Communiste"],
-        "correct" : 3
-    },
-    {
-        "question" : "Dorian mute ",
-        "reponses" : ["Seb","Pas Seb","Tout le monde","Lui-même"],
-        "correct" : 3
-    },
-    {
-        "question" : "Dorian grandit ",
-        "reponses" : ["Vite","Lentement","Pas"],
-        "correct" : 2
-    },
-    {
-        "question" : "Sa daronne ",
-        "reponses" : ["La gestapo","Le Blitzkrieg","vit."],
+        "question" : "De quel jeu vidéo est issue cette musique modifiée ?",
+        "reponses" : ["Tetris","Minecraft","Candy Crush"],
         "correct" : 0
     },
+    {
+        "question" : "De quel jeu vidéo est issu ce bruitage ?",
+        "reponses" : ["Zelda","Luigi","Mario"],
+        "correct" : 2
+    },
+    {
+        "question" : "A quel jeu vidéo correspond cette image furtive ?",
+        "reponses" : ["Mario","Half-Life","Portal"],
+        "correct" : 2
+    },
+    {
+        "question" : "Quel est cet instrument ?",
+        "reponses" : ["Guitare","Banjo","Mandoline"],
+        "correct" : 1
+    },
+    {
+        "question" : "De quel jeu vidéo vient cette musique ?",
+        "reponses" : ["Elden Ring","Zelda","Outer Wilds"],
+        "correct" : 2
+    },
+    {
+        "question" : "De quel jeu vidéo est issue cette musique modifiée ?",
+        "reponses" : ["Celeste","Minecraft","Tetris"],
+        "correct" : 1
+    },
+    {
+        "question" : "De quel jeu vidéo vient cette musique ?",
+        "reponses" : ["Pong","Donkey Kong","Pac-Man"],
+        "correct" : 2
+    },
+    {
+        "question" : "De quel jeu vidéo vient cette musique ?",
+        "reponses" : ["Zelda","Kirby","Zelda"],
+        "correct" : 0
+    },
+    {
+        "question" : "De quel jeu vidéo vient cette musique ?",
+        "reponses" : ["Mortal Kombat","King of Fighters","Street Fighter"],
+        "correct" : 2
+    },
+    {
+        "question" : "De quel jeu vidéo vient cette musique ?",
+        "reponses" : ["Mario","Kirby","Sonic"],
+        "correct" : 1
+    },
+    {
+        "question" : "De quel jeu vidéo vient cette musique ?",
+        "reponses" : ["Undertale","Deltarune","Cuphead"],
+        "correct" : 0
+    },
+    {
+        "question" : "De quel jeu vidéo vient cette musique ?",
+        "reponses" : ["Super Smash Bros Brawl","Super Smash Bros Melee","Super Smash Bros Ultimate"],
+        "correct" : 2
+    },
+    {
+        "question" : "De quel jeu vidéo vient cette musique ?",
+        "reponses" : ["Banjo-Kazooie","Doom","Yoshi"],
+        "correct" : 0
+    },
+    {
+        "question" : "De quel jeu vidéo vient cette musique ?",
+        "reponses" : ["Elder Scrolls","Final Fantasy","GTA"],
+        "correct" : 0
+    },
+    {
+        "question" : "De quel jeu vidéo vient cette musique ?",
+        "reponses" : ["Candy Crush","Fruit Ninja","Salade de Fruits"],
+        "correct" : 0
+    }
 ];
 
 // Definiton variables
